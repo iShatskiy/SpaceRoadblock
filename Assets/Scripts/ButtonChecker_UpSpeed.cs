@@ -39,7 +39,8 @@ public class ButtonChecker_UpSpeed : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-
+        if (mySoldier.curLevelSpeed <= GameManager.instance.su.upgradesSpeedShooter.Length-1)
+               {
         t.text = "+SPD (-" +
             GameManager.instance.su.upgradesSpeedShooter[
                 mySoldier.curLevelSpeed].price + ")";
@@ -51,5 +52,6 @@ public class ButtonChecker_UpSpeed : MonoBehaviour
             {
                 b.interactable = false;
             }
+               }
     }
 }
