@@ -49,7 +49,10 @@ MonoBehaviour:
   gun: {fileID: 3638284148934675193}
   cooldownTime: 2
   aggroDistance: 15
-  price: 25
+  position: 0
+  price: 100
+  curLevelAttack: 0
+  curLevelSpeed: 0
 --- !u!1 &3091221720715840907
 GameObject:
   m_ObjectHideFlags: 0

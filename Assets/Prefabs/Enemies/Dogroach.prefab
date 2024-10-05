@@ -82,7 +82,7 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 1.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &5109444415354638029
@@ -153,10 +153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3db5c5017f3227c46aec973ae7dd802d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 2
-  speed: 3
+  hp: 10
+  speed: 4
   stunTime: 0.5
-  countAmanith: 25
+  countAmanith: 7
 --- !u!61 &771829372648427666
 BoxCollider2D:
   m_ObjectHideFlags: 0
