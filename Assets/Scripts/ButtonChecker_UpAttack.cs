@@ -38,11 +38,13 @@ public class ButtonChecker_UpAttack : MonoBehaviour
             gameObject.SetActive(false);
         }
 
+        if (mySoldier.curLevelAttack <= GameManager.instance.su.upgradesAttackShooter.Length-1)
+               {
         t.text = "+ATK (-" +
            GameManager.instance.su.upgradesAttackShooter[
                mySoldier.curLevelAttack].price + ")";
 
-        if (GameManager.instance.countAmanith >= GameManager.instance.su.upgradesAttackShooter[lvl].price)
+               if (GameManager.instance.countAmanith >= GameManager.instance.su.upgradesAttackShooter[lvl].price)
             {
                 b.interactable = true;
             }
@@ -50,5 +52,8 @@ public class ButtonChecker_UpAttack : MonoBehaviour
             {
                 b.interactable = false;
             }
+            
+               }
+        
     }
 }
