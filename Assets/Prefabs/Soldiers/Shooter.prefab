@@ -48,7 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gun: {fileID: 3638284148934675193}
   cooldownTime: 1.2
-  aggroDistance: 15
+  aggroDistance: 20
   position: 0
   price: 100
   curLevelAttack: 0
