@@ -6,18 +6,33 @@ public class SoldierUpgrader : MonoBehaviour
 {
     public LvlAttack[] upgradesAttackShooter;
     public LvlSpeed[] upgradesSpeedShooter;
+    GameObject mySoldier;
 
     public void UpgradeAttack(int position)
     {
-        int lvl = GameManager.instance.ss.curSoldiers[position].GetComponent<SoldierBase>().curLevelAttack;
-        GameManager.instance.ss.curSoldiers[position].GetComponent<SoldierBase>().UpgradeAttack(upgradesAttackShooter[lvl].value);
+        foreach (GameObject soldier in GameManager.instance.ss.curSoldiers) {
+            if (soldier.GetComponent<SoldierBase>().position == position)
+            {
+                mySoldier = soldier;
+            }
+        }
+        
+        int lvl = mySoldier.GetComponent<SoldierBase>().curLevelAttack;
+        mySoldier.GetComponent<SoldierBase>().UpgradeAttack(upgradesAttackShooter[lvl].value);
         GameManager.instance.ChangeAmanith(-upgradesAttackShooter[lvl].price);
     }
 
     public void UpgradeSpeed(int position)
     {
-        int lvl = GameManager.instance.ss.curSoldiers[position].GetComponent<SoldierBase>().curLevelSpeed;
-        GameManager.instance.ss.curSoldiers[position].GetComponent<SoldierBase>().UpgradeSpeed(upgradesSpeedShooter[lvl].value);
+        foreach (GameObject soldier in GameManager.instance.ss.curSoldiers) {
+            if (soldier.GetComponent<SoldierBase>().position == position)
+            {
+                mySoldier = soldier;
+            }
+        }
+        
+        int lvl = mySoldier.GetComponent<SoldierBase>().curLevelSpeed;
+        mySoldier.GetComponent<SoldierBase>().UpgradeSpeed(upgradesSpeedShooter[lvl].value);
         GameManager.instance.ChangeAmanith(-upgradesSpeedShooter[lvl].price);
     }
 

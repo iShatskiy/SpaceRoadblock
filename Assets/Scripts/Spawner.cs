@@ -24,9 +24,13 @@ public class Spawner : MonoBehaviour
         cooldownWaveCurrentTime = cooldownWaveTime;
         currentEnemy = 0;
         currentWave = 0;
-        CalculateEnemies();
+        
     }
 
+    public void Start() {
+
+        CalculateEnemies();
+    }
     public void FixedUpdate()
     {
         if (stopSpawn) {
