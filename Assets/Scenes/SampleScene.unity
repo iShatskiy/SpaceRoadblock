@@ -6272,7 +6272,7 @@ MonoBehaviour:
   - enemies:
     - {fileID: 0}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
-    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
+    - {fileID: 0}
   - enemies:
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
     - {fileID: 0}
@@ -6289,15 +6289,15 @@ MonoBehaviour:
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
   - enemies:
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
-    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
-    - {fileID: 0}
-    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
-    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
-    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
     - {fileID: 0}
     - {fileID: 0}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
+    - {fileID: 0}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
+    - {fileID: 0}
   countEnemies: 0
 --- !u!1 &1855990193
 GameObject:
@@ -6955,12 +6955,7 @@ MonoBehaviour:
     - {fileID: 0}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
   - enemies:
-    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
-    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
-    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
-  - enemies:
-    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
-    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
+    - {fileID: 0}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
   - enemies:
@@ -6973,12 +6968,17 @@ MonoBehaviour:
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
+  - enemies:
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
+    - {fileID: 0}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
+    - {fileID: 0}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
+    - {fileID: 0}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
+    - {fileID: 0}
     - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
-    - {fileID: 7355256287763432818, guid: 0ca16eac658a4cd4085d3e4acdbf9e40, type: 3}
+    - {fileID: 0}
   countEnemies: 0
 --- !u!1 &2077941927
 GameObject:
