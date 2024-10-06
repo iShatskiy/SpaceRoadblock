@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gun: {fileID: 3638284148934675193}
-  cooldownTime: 1.2
-  aggroDistance: 15
+  cooldownTime: 1
+  aggroDistance: 18
   position: 0
   price: 100
   curLevelAttack: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3e13506fccedbf459fa09fdd6903913, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 5
+  damage: 9
   bullet: {fileID: 8839428459983631567, guid: ef52807c756c6bc45b52cd01d9eaaef3, type: 3}
   missRate: 1
 --- !u!1 &4254194204646788133
