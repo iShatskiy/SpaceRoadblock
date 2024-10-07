@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -72470403, guid: 36040de2090df49448355b194be7afda, type: 3}
+  m_Sprite: {fileID: -571332025, guid: 82e7753c199298d49814c084ea4fa498, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_Size: {x: 1.28, y: 1.28}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &5109444415354638029
@@ -157,6 +157,7 @@ MonoBehaviour:
   speed: 4
   stunTime: 0.5
   countAmanith: 7
+  corpse: {fileID: 2368616805597790579, guid: c121030dd1897ba4f85a2c2332d1e87d, type: 3}
 --- !u!61 &771829372648427666
 BoxCollider2D:
   m_ObjectHideFlags: 0
