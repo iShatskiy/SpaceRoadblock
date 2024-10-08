@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,448 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Armour Point-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 780
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281de86b16ae3414fa14c981553acc95
+      internalID: -193324027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 780
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf7afc08c2562e45b34909431b9b984
+      internalID: 1456930540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 780
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d009fce94d2c694d9e5f83c8d9b2fbb
+      internalID: -1818736733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7fb47eb12595c4db4b7a8c9a46cc90
+      internalID: -1166061779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 650
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f9c8906bdc5e341a5b843a6501a1bb
+      internalID: -1356641172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 650
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9dfc2fcba5607c4f9ad6bfd76d13c35
+      internalID: 850179452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f923c274ae31e14aa7b57fd860843b3
+      internalID: -1213726160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 520
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df3ba93b0d7cbe04aa0656bfddb2728f
+      internalID: -1869660658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 520
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4194e4b46b18bb142a9b984db08372f5
+      internalID: -1055192957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 390
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8545c8a9b58f3724ab03393a4955172b
+      internalID: -1654702131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 390
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c0225fa24670049b0a269cb343b527
+      internalID: -233220107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 390
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66cc9eca0eb72646833744d00265a82
+      internalID: -1605295518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c8268b51b719e4e9fea0a1339b7b1d
+      internalID: -285863662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 260
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba9b22a386e54741ba276f5eaa3ea5f
+      internalID: 2145614840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 260
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f731933c5e8ea743bbd916a81acfe22
+      internalID: 718739203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa3c636f3876d74ca4631ec67337b78
+      internalID: -1784505712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 130
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9381106c45f8f49a7d36e150d8ef30
+      internalID: -183468191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 130
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0695cb6a9f7ac48ae6ff02e8901705
+      internalID: -1132061827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b893709d3467bd84b9cfef7c229589d0
+      internalID: 777263033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c939ce7a3ec9fd409109ce937ebf681
+      internalID: 1980526788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armour Point-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 241
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3b05b552ff84e43be045b811948d1a
+      internalID: 194624140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +547,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Armour Point-Sheet_0: -193324027
+      Armour Point-Sheet_1: 1456930540
+      Armour Point-Sheet_10: -233220107
+      Armour Point-Sheet_11: -1605295518
+      Armour Point-Sheet_12: -285863662
+      Armour Point-Sheet_13: 2145614840
+      Armour Point-Sheet_14: 718739203
+      Armour Point-Sheet_15: -1784505712
+      Armour Point-Sheet_16: -183468191
+      Armour Point-Sheet_17: -1132061827
+      Armour Point-Sheet_18: 777263033
+      Armour Point-Sheet_19: 1980526788
+      Armour Point-Sheet_2: -1818736733
+      Armour Point-Sheet_20: 194624140
+      Armour Point-Sheet_3: -1166061779
+      Armour Point-Sheet_4: -1356641172
+      Armour Point-Sheet_5: 850179452
+      Armour Point-Sheet_6: -1213726160
+      Armour Point-Sheet_7: -1869660658
+      Armour Point-Sheet_8: -1055192957
+      Armour Point-Sheet_9: -1654702131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 972e391ab0a1fd14d9addc553b10b74f
+guid: 852a66abfe714d547b17bbf4343211ed
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Healthpoint-Sheet_0
+      name: Logo_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 780
-        width: 226
-        height: 130
+        y: 3841
+        width: 1708
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,62 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42202c172b7bcd948af30b347d96cf78
-      internalID: -739160295
+      spriteID: cd0d215cf8077b34db8a5c84ca463750
+      internalID: 545323678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthpoint-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 780
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe3f3c12689329a458fb474e03a7623b
-      internalID: 1813038500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 780
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0324338404b51eb41aec27bbfae04bf9
-      internalID: 1673565618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_3
+      name: Logo_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 650
-        width: 226
-        height: 130
+        y: 3674
+        width: 1708
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,62 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1e8683c2b4d3684fb82f0b987804510
-      internalID: -1192762810
+      spriteID: 8f097fb2123e9e543979dbc3859fa801
+      internalID: -722728538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthpoint-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 650
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08b44004ec9b2fc488fa28e60ce2ea3f
-      internalID: -1730736986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 650
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d86bb84617259434d94286b05f21f5d6
-      internalID: 681005652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_6
+      name: Logo_2
       rect:
         serializedVersion: 2
         x: 0
-        y: 520
-        width: 226
-        height: 130
+        y: 3507
+        width: 1708
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,62 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 486fa86d238f70b449fd95715d373e02
-      internalID: -1775982009
+      spriteID: 39b997873c7e66549a6732cbb551ae71
+      internalID: 604977778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthpoint-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 520
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 517b2f7c411edc049b46447814ec09bc
-      internalID: -1427182887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 520
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be112d75fc76ae84fb68296a43a6763a
-      internalID: -1752107865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_9
+      name: Logo_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 390
-        width: 226
-        height: 130
+        y: 3340
+        width: 1708
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,62 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93a00363652b14b4ebc61b9257bd31b8
-      internalID: -979919264
+      spriteID: d95c6a1baee73fd49848abb76ae35c90
+      internalID: 166956736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthpoint-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 390
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93ca85642aa348b48b39af749f8e5871
-      internalID: -1758587970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 390
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69d42a4f9e89dab49bbc8525a242d4d1
-      internalID: -1003118688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_12
+      name: Logo_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 260
-        width: 226
-        height: 130
+        y: 3173
+        width: 1708
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,62 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf9136c7435397f43afc62c57e92805b
-      internalID: 1677449624
+      spriteID: 9e0f83e2b9902394bb6f58824d560063
+      internalID: -1206220995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthpoint-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 260
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83537a7127932394a8e530920c4792da
-      internalID: -1659412024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 260
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83688ece7bfd57548b928ef15730dff3
-      internalID: 1294387498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_15
+      name: Logo_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 130
-        width: 226
-        height: 130
+        y: 3006
+        width: 1708
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05859dfcf6821d249a4bb80ea21d1dde
-      internalID: 2117742264
+      spriteID: 27682b222c200c849a4e0bc67873a405
+      internalID: 185893066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthpoint-Sheet_16
+      name: Logo_6
       rect:
         serializedVersion: 2
-        x: 226
-        y: 130
-        width: 226
-        height: 130
+        x: 0
+        y: 2839
+        width: 1708
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36e1319b34bd856478696b82439362f8
-      internalID: -354395549
+      spriteID: 66c593b84f656404e8c80a36a948a886
+      internalID: 208076662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthpoint-Sheet_17
+      name: Logo_7
       rect:
         serializedVersion: 2
-        x: 452
-        y: 130
-        width: 226
-        height: 130
+        x: 0
+        y: 2672
+        width: 1708
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +258,335 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f35e05256f187ae49bf574f4650eff75
-      internalID: -783194610
+      spriteID: b829ef8fee8b5cc4e9de9c39de367fdb
+      internalID: 252097850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthpoint-Sheet_18
+      name: Logo_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2505
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940f1f0531e8ec14e907185ff63ee4c3
+      internalID: -418621985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2338
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6498a067c0ab25e4a9985a3046f2b4a2
+      internalID: -1226751388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2171
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 984ae47a16f0bd34bbd944572097f3ea
+      internalID: 685079089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2004
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1fd104a84b6164e9e583789b1ac1c6
+      internalID: -749102854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1837
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740d1d1407f30114cb821da63596afbf
+      internalID: -977273884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1670
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c387920a532f948a79a0eec7d1ddcb
+      internalID: 1876573264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1503
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5b0fb4773353a448065891125994ac
+      internalID: 1746376621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1336
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fb30ce3af37fe43beb44d2bc73cd6b
+      internalID: -1560325687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1169
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd90d17759f6b664c940b6b16e4ccff8
+      internalID: -689156084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1002
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59bba909a45fccf4c94edeb9de3476b7
+      internalID: -547591990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 835
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffc78f3753ccb24b9a1cfe63fc073d5
+      internalID: -1798486453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 668
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e598d5abd0a464f8e1080b2acada67
+      internalID: 1094519474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 501
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a77637defb735e48838caf4b59cc91f
+      internalID: -1357260568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9857092d116526d43bea72fcf3da93ac
+      internalID: -1936972860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 167
+        width: 1708
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb138c1476d87c41a95bf3d93560d52
+      internalID: 1758405037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Logo_23
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 226
-        height: 130
+        width: 1708
+        height: 167
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,29 +594,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f5c533c3079b374cadb20d882646d99
-      internalID: -642530345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_19
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 0
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbef1d187b3fdb845aab339cd1aa01c3
-      internalID: 1282032436
+      spriteID: 50b633810f1664f4b9e062f9b62744df
+      internalID: -982989755
       vertices: []
       indices: 
       edges: []
@@ -527,26 +611,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Healthpoint-Sheet_0: -739160295
-      Healthpoint-Sheet_1: 1813038500
-      Healthpoint-Sheet_10: -1758587970
-      Healthpoint-Sheet_11: -1003118688
-      Healthpoint-Sheet_12: 1677449624
-      Healthpoint-Sheet_13: -1659412024
-      Healthpoint-Sheet_14: 1294387498
-      Healthpoint-Sheet_15: 2117742264
-      Healthpoint-Sheet_16: -354395549
-      Healthpoint-Sheet_17: -783194610
-      Healthpoint-Sheet_18: -642530345
-      Healthpoint-Sheet_19: 1282032436
-      Healthpoint-Sheet_2: 1673565618
-      Healthpoint-Sheet_3: -1192762810
-      Healthpoint-Sheet_4: -1730736986
-      Healthpoint-Sheet_5: 681005652
-      Healthpoint-Sheet_6: -1775982009
-      Healthpoint-Sheet_7: -1427182887
-      Healthpoint-Sheet_8: -1752107865
-      Healthpoint-Sheet_9: -979919264
+      Logo_0: 545323678
+      Logo_1: -722728538
+      Logo_10: 685079089
+      Logo_11: -749102854
+      Logo_12: -977273884
+      Logo_13: 1876573264
+      Logo_14: 1746376621
+      Logo_15: -1560325687
+      Logo_16: -689156084
+      Logo_17: -547591990
+      Logo_18: -1798486453
+      Logo_19: 1094519474
+      Logo_2: 604977778
+      Logo_20: -1357260568
+      Logo_21: -1936972860
+      Logo_22: 1758405037
+      Logo_23: -982989755
+      Logo_3: 166956736
+      Logo_4: -1206220995
+      Logo_5: 185893066
+      Logo_6: 208076662
+      Logo_7: 252097850
+      Logo_8: -418621985
+      Logo_9: -1226751388
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

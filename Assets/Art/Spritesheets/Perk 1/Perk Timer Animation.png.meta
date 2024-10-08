@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 972e391ab0a1fd14d9addc553b10b74f
+guid: 910162c67ffddd94a89b7277386a6693
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,391 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Healthpoint-Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 780
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42202c172b7bcd948af30b347d96cf78
-      internalID: -739160295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 780
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe3f3c12689329a458fb474e03a7623b
-      internalID: 1813038500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 780
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0324338404b51eb41aec27bbfae04bf9
-      internalID: 1673565618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 650
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1e8683c2b4d3684fb82f0b987804510
-      internalID: -1192762810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 650
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08b44004ec9b2fc488fa28e60ce2ea3f
-      internalID: -1730736986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 650
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d86bb84617259434d94286b05f21f5d6
-      internalID: 681005652
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 520
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 486fa86d238f70b449fd95715d373e02
-      internalID: -1775982009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 520
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 517b2f7c411edc049b46447814ec09bc
-      internalID: -1427182887
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 520
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be112d75fc76ae84fb68296a43a6763a
-      internalID: -1752107865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_9
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 390
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93a00363652b14b4ebc61b9257bd31b8
-      internalID: -979919264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_10
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 390
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 93ca85642aa348b48b39af749f8e5871
-      internalID: -1758587970
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_11
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 390
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69d42a4f9e89dab49bbc8525a242d4d1
-      internalID: -1003118688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 260
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf9136c7435397f43afc62c57e92805b
-      internalID: 1677449624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_13
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 260
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83537a7127932394a8e530920c4792da
-      internalID: -1659412024
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_14
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 260
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83688ece7bfd57548b928ef15730dff3
-      internalID: 1294387498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_15
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 130
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05859dfcf6821d249a4bb80ea21d1dde
-      internalID: 2117742264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_16
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 130
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 36e1319b34bd856478696b82439362f8
-      internalID: -354395549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_17
-      rect:
-        serializedVersion: 2
-        x: 452
-        y: 130
-        width: 226
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f35e05256f187ae49bf574f4650eff75
-      internalID: -783194610
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Healthpoint-Sheet_18
+      name: Perk Timer Animation_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 226
-        height: 130
+        width: 206.06667
+        height: 1221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f5c533c3079b374cadb20d882646d99
-      internalID: -642530345
+      spriteID: 6fc8d6a7f940fe94285607e7de40600e
+      internalID: -478701362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Healthpoint-Sheet_19
+      name: Perk Timer Animation_1
       rect:
         serializedVersion: 2
-        x: 226
+        x: 206
         y: 0
-        width: 226
-        height: 130
+        width: 206.06667
+        height: 1221
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,8 +132,239 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbef1d187b3fdb845aab339cd1aa01c3
-      internalID: 1282032436
+      spriteID: 5ec598effae2f04479056454bd8988c5
+      internalID: 1395811958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perk Timer Animation_2
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 0
+        width: 206.06667
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0ed2cd47ded5840ac28e16e45075af
+      internalID: 88556236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perk Timer Animation_3
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 206.06667
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce05d3cdaf80774e8dc1a1dcfdc471b
+      internalID: 2006592758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perk Timer Animation_4
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 0
+        width: 206.06667
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94958ccbc64d964183695ad4e6dc5cb
+      internalID: 2101500865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perk Timer Animation_5
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 0
+        width: 206.06667
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0416d9f76055e94ba08d5a422c2c1ad
+      internalID: -420111333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perk Timer Animation_6
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 0
+        width: 206.06667
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbfdc0a6e1aff449afbf2d400d1ba20
+      internalID: 1802230334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perk Timer Animation_7
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 0
+        width: 206.06667
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51659abb82861c46b6a12e6733d3f34
+      internalID: 535150017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perk Timer Animation_8
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 0
+        width: 206.06667
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f53ecc7be54d8f459b10cb5901bb340
+      internalID: -258046787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perk Timer Animation_9
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 0
+        width: 206.06667
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c9dd86ce0298f49bb70246fc4b810b
+      internalID: 1087969756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perk Timer Animation_10
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 0
+        width: 206.06667
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8559e57fb7ed24796c354dd138bd8c
+      internalID: 1079743339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perk Timer Animation_11
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 0
+        width: 206.06667
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2688085e954da49bb56cc76180afd5
+      internalID: -1540193611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Perk Timer Animation_12
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 0
+        width: 206.06667
+        height: 1221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1b1787d1c20ff4c8e89ecae949c43f
+      internalID: 196972886
       vertices: []
       indices: 
       edges: []
@@ -527,26 +380,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Healthpoint-Sheet_0: -739160295
-      Healthpoint-Sheet_1: 1813038500
-      Healthpoint-Sheet_10: -1758587970
-      Healthpoint-Sheet_11: -1003118688
-      Healthpoint-Sheet_12: 1677449624
-      Healthpoint-Sheet_13: -1659412024
-      Healthpoint-Sheet_14: 1294387498
-      Healthpoint-Sheet_15: 2117742264
-      Healthpoint-Sheet_16: -354395549
-      Healthpoint-Sheet_17: -783194610
-      Healthpoint-Sheet_18: -642530345
-      Healthpoint-Sheet_19: 1282032436
-      Healthpoint-Sheet_2: 1673565618
-      Healthpoint-Sheet_3: -1192762810
-      Healthpoint-Sheet_4: -1730736986
-      Healthpoint-Sheet_5: 681005652
-      Healthpoint-Sheet_6: -1775982009
-      Healthpoint-Sheet_7: -1427182887
-      Healthpoint-Sheet_8: -1752107865
-      Healthpoint-Sheet_9: -979919264
+      Perk Timer Animation_0: -478701362
+      Perk Timer Animation_1: 1395811958
+      Perk Timer Animation_10: 1079743339
+      Perk Timer Animation_11: -1540193611
+      Perk Timer Animation_12: 196972886
+      Perk Timer Animation_2: 88556236
+      Perk Timer Animation_3: 2006592758
+      Perk Timer Animation_4: 2101500865
+      Perk Timer Animation_5: -420111333
+      Perk Timer Animation_6: 1802230334
+      Perk Timer Animation_7: 535150017
+      Perk Timer Animation_8: -258046787
+      Perk Timer Animation_9: 1087969756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

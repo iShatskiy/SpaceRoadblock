@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 363
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27ffa3591fed434bb64f24948b3344c
+      internalID: 2039448517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 363
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f2117d8fc548043ae67418c09f7084
+      internalID: 813615536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 363
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec87e703d431394e93217faba882677
+      internalID: -894116875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cb06826ac2fc643bd9c1a0aba0c683
+      internalID: 756638020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 242
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7fd032a53316104581d0f6a2b1b3b6e
+      internalID: 1492788285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 242
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e5701b728c79049ac8b06de80d39b9
+      internalID: 116833469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a094883d8d3404499c6fd0b4886d396
+      internalID: 1147639265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 121
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1811dc1dc0be5e14f80b66dccedf3781
+      internalID: 1418028022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 121
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5898043e48ae0de4298f00a92a24c2ea
+      internalID: 1730314709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b7ceec7befe0648b54e2d49db5d413
+      internalID: 995430652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 0
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deae74676fa34f54d98154f7372198d2
+      internalID: -1293366299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Base Upgrade Button-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 0
+        width: 124
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a89c02511600af49beb2b687bca0570
+      internalID: -893152529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +358,19 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Base Upgrade Button-Sheet_0: 2039448517
+      Base Upgrade Button-Sheet_1: 813615536
+      Base Upgrade Button-Sheet_10: -1293366299
+      Base Upgrade Button-Sheet_11: -893152529
+      Base Upgrade Button-Sheet_2: -894116875
+      Base Upgrade Button-Sheet_3: 756638020
+      Base Upgrade Button-Sheet_4: 1492788285
+      Base Upgrade Button-Sheet_5: 116833469
+      Base Upgrade Button-Sheet_6: 1147639265
+      Base Upgrade Button-Sheet_7: 1418028022
+      Base Upgrade Button-Sheet_8: 1730314709
+      Base Upgrade Button-Sheet_9: 995430652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
