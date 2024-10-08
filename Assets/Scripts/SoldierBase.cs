@@ -24,12 +24,28 @@ public class SoldierBase : MonoBehaviour
         }
     }
 
+    [SerializeField] private GameObject teleport;
+    [SerializeField] private float timerTeleport;
+    private float curTimerTeleport;
+    private bool teleportReleased;
+
     public void Awake()
     {
-        
         currentCooldownTime = cooldownTime;
         animator = GetComponentInChildren<Animator>();
         prepared = false;
+        curTimerTeleport = timerTeleport;
+        teleportReleased = false;
+    }
+
+    public void Start()
+    {
+        SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
+        sr.enabled = false;
+        if (teleport != null)
+        {
+            Instantiate(teleport, transform.position, Quaternion.identity);
+        }
     }
 
     private void Attack() {
@@ -42,6 +58,19 @@ public class SoldierBase : MonoBehaviour
 
     public void FixedUpdate()
     {
+        if (teleportReleased == false)
+        {
+            if (curTimerTeleport >= 0)
+            {
+                curTimerTeleport -= Time.fixedDeltaTime;
+            }
+            else 
+            {
+                SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
+                sr.enabled = true;
+                teleportReleased = true;
+            }
+        }
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.right, aggroDistance);
         if (hit.collider != null)
             if (hit.collider.tag == "Enemy") {

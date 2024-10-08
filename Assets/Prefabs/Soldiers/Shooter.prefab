@@ -53,6 +53,8 @@ MonoBehaviour:
   price: 100
   curLevelAttack: 0
   curLevelSpeed: 0
+  teleport: {fileID: 1417661968023582149, guid: 592dc948473057e439766318e06b5550, type: 3}
+  timerTeleport: 0.25
 --- !u!1 &3091221720715840907
 GameObject:
   m_ObjectHideFlags: 0

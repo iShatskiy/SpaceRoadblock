@@ -663,7 +663,7 @@ MonoBehaviour:
   ss: {fileID: 0}
   su: {fileID: 0}
   checker: {fileID: 0}
-  startCountAmanith: 200
+  startCountAmanith: 2000
   startCountHp: 5
   countAmanith: 0
 --- !u!4 &102834569
