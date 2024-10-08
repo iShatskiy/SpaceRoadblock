@@ -13,6 +13,8 @@ public class EnemyBase : MonoBehaviour
     private float curStunTime;
     [SerializeField] private int countAmanith;
 
+    [SerializeField] private GameObject corpse;
+
     public void Awake() {
         anim = GetComponentInChildren<Animator>();
         curStunTime = stunTime;
@@ -41,6 +43,7 @@ public class EnemyBase : MonoBehaviour
         dead = true;
         GameManager.instance.CountEnemies--;
         GameManager.instance.ChangeAmanith(countAmanith);
+        ReleaseCorpse();
         Destroy(gameObject);
     }
 
@@ -49,5 +52,16 @@ public class EnemyBase : MonoBehaviour
         dead = true;
         GameManager.instance.CountEnemies--;
         Destroy(gameObject);
+    }
+
+    public void ReleaseCorpse() {
+        if (corpse != null)
+        {
+            Instantiate(corpse, transform.position, Quaternion.identity);
+        }
+        else 
+        {
+            Debug.Log("This enemy has no corpse prefab.");
+        }
     }
 }

@@ -157,6 +157,7 @@ MonoBehaviour:
   speed: 2
   stunTime: 0.5
   countAmanith: 30
+  corpse: {fileID: 5220822544079559184, guid: d141657e18bef8d498c5118a31caccd9, type: 3}
 --- !u!61 &771829372648427666
 BoxCollider2D:
   m_ObjectHideFlags: 0
