@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2903969722755017133}
   - component: {fileID: 7739998735304723728}
   - component: {fileID: 2631339251016167463}
+  - component: {fileID: -2503238121922081284}
   m_Layer: 0
   m_Name: Dogroach_Corpse
   m_TagString: Untagged
@@ -106,3 +107,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-2503238121922081284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2368616805597790579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc7c9d0477194c4099d122e2ece2b3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBetweenIterations: 0.2
