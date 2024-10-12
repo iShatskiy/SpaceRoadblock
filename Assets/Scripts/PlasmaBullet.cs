@@ -11,7 +11,7 @@ public class PlasmaBullet : Bullet
 
     public void Start()
     {
-        direction = new Vector2(1 * speed * .1f, Random.Range(-0.002f * missRate, 0.01f * missRate));
+        direction = new Vector2(1 * speed * .1f, Random.Range(-0.01f * missRate, 0.01f * missRate));
     }
 
     public void FixedUpdate()
