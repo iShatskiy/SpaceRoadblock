@@ -15,16 +15,19 @@ public class Rocket : Bullet
     void Explosion()
     {
         anim.SetTrigger("Explode");
-        RaycastHit2D[] hit = Physics2D.CircleCastAll(transform.position, 3f, Vector2.zero);
-        if (hit[0].collider != null)
+        RaycastHit2D[] hit = Physics2D.CircleCastAll(transform.position, 2f, Vector2.zero);
+        if (hit.Length > 0)
+        {
             if (hit[0].collider.tag == "Enemy")
             {
                 foreach (var enemy in hit)
                 {
-                    enemy.collider.gameObject.GetComponent<EnemyBase>().ApplyDamage(damage);
+                    if (enemy.collider.tag == "Enemy")
+                        enemy.collider.gameObject.GetComponent<EnemyBase>().ApplyDamage(damage);
                 }
             }
-        StartCoroutine(TimeToDestroy(2));
+        }
+        StartCoroutine(TimeToDestroy(1.2f));
     }
 
     IEnumerator TimeToExplode(float time)

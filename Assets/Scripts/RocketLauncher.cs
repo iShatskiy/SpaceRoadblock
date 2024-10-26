@@ -12,7 +12,7 @@ public class RocketLauncher : Gun
         if (hit.collider != null)
             if (hit.collider.tag == "Enemy")
             {
-                Instantiate(bullet, hit.collider.transform.position - new Vector3(0, 2, 0), Quaternion.identity);
+                Instantiate(bullet, hit.collider.transform.position - new Vector3(2, 0, 0), Quaternion.identity);
             }
         bullet.GetComponent<Bullet>().damage = damage;
         bullet.GetComponent<Bullet>().missRate = missRate;
