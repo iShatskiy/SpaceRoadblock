@@ -99,7 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7005528681fdaa4f88abd03b044563c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 3
+  damage: 20
   bullet: {fileID: 3864701237775309033, guid: 73d3c824e4258b042accc456285735fb, type: 3}
   missRate: 0
 --- !u!1 &4254194204646788133
