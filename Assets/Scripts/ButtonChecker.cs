@@ -12,7 +12,7 @@ public class ButtonChecker : MonoBehaviour
 
     public List<Button> units;
 
-    public void LateUpdate()
+    public void FixedUpdate()
     {
         if (GameManager.instance.countAmanith <= GameManager.instance.ss.soldiers[0].GetComponent<SoldierBase>().price)
         {

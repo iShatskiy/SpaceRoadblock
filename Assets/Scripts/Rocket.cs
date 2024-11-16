@@ -4,41 +4,44 @@ using UnityEngine;
 
 public class Rocket : Bullet
 {
-    Animator anim;
-    
+    private Vector2 direction;
+    [SerializeField] private GameObject particle;
+
     void Start()
     {
-        anim = GetComponent<Animator>();
-        StartCoroutine(TimeToExplode(1));
+        direction = new Vector2(1 * speed * .1f, Random.Range(-0.01f * missRate, 0.01f * missRate));
+    }
+
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.gameObject.tag == "Enemy")
+        {
+            Explosion();
+            Instantiate(particle, transform.position + Vector3.right, Quaternion.identity);
+            Destroy(gameObject);
+        }
     }
 
     void Explosion()
     {
-        anim.SetTrigger("Explode");
-        RaycastHit2D[] hit = Physics2D.CircleCastAll(transform.position, 2f, Vector2.zero);
+        RaycastHit2D[] hit = Physics2D.CircleCastAll(transform.position, 2.4f, Vector2.zero);
         if (hit.Length > 0)
         {
-            if (hit[0].collider.tag == "Enemy")
+            foreach (var enemy in hit)
             {
-                foreach (var enemy in hit)
-                {
-                    if (enemy.collider.tag == "Enemy")
-                        enemy.collider.gameObject.GetComponent<EnemyBase>().ApplyDamage(damage);
-                }
+                if (enemy.collider.tag == "Enemy")
+                    enemy.collider.gameObject.GetComponent<EnemyBase>().ApplyDamage(damage);
             }
+
         }
-        StartCoroutine(TimeToDestroy(1.2f));
     }
-
-    IEnumerator TimeToExplode(float time)
+    public void FixedUpdate()
     {
-        yield return new WaitForSeconds(time);
-        Explosion();
-    }
-
-    IEnumerator TimeToDestroy(float time)
-    {
-        yield return new WaitForSeconds(time);
-        Destroy(gameObject);
+        transform.Translate(direction);
+        lifetime -= Time.deltaTime;
+        if (lifetime < 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
