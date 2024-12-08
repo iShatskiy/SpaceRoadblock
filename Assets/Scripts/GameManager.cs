@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public SoldierShop ss;
     public SoldierUpgrader su;
     public ButtonChecker checker;
+    public HpBarScript hpScript;
     public int startCountAmanith;
     public int startCountHp;
     private int playerHp;
@@ -95,7 +96,8 @@ public class GameManager : MonoBehaviour
     public void ChangeHp(int cnt)
     {
         PlayerHp += cnt;
-        FindAnyObjectByType<HpCounter>().GetComponent<TMP_Text>().text = "HP: " + PlayerHp.ToString();
+        hpScript.UpdateHp(PlayerHp);
+        //FindAnyObjectByType<HpCounter>().GetComponent<TMP_Text>().text = "HP: " + PlayerHp.ToString();
     }
 
     public void Restart()
