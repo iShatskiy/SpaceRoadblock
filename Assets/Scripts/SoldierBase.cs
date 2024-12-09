@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SoldierBase : MonoBehaviour
 {
+    public int type; //0-shooter,1-bomber
     [SerializeField] private Gun gun;
     [SerializeField] private float cooldownTime;
     [SerializeField] private float aggroDistance;

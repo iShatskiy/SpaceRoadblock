@@ -3868,6 +3868,7 @@ GameObject:
   - component: {fileID: 609709542}
   - component: {fileID: 609709544}
   - component: {fileID: 609709543}
+  - component: {fileID: 609709545}
   m_Layer: 5
   m_Name: Units Card 1
   m_TagString: Untagged
@@ -3932,6 +3933,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 609709541}
   m_CullTransparentMesh: 1
+--- !u!114 &609709545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 609709541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7656198418a7c6c47adfc57d506f233f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: 3
+  rifle: {fileID: 21300000, guid: 4bd55f52eb1f8e94f90cef47b12da324, type: 3}
+  bomber: {fileID: 21300000, guid: b5872776af2db3741848183307079d7e, type: 3}
 --- !u!1 &617571261
 GameObject:
   m_ObjectHideFlags: 0
@@ -4449,6 +4465,7 @@ GameObject:
   - component: {fileID: 697232587}
   - component: {fileID: 697232589}
   - component: {fileID: 697232588}
+  - component: {fileID: 697232590}
   m_Layer: 5
   m_Name: Units Card 1
   m_TagString: Untagged
@@ -4513,6 +4530,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697232586}
   m_CullTransparentMesh: 1
+--- !u!114 &697232590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 697232586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7656198418a7c6c47adfc57d506f233f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: 1
+  rifle: {fileID: 21300000, guid: 4bd55f52eb1f8e94f90cef47b12da324, type: 3}
+  bomber: {fileID: 21300000, guid: b5872776af2db3741848183307079d7e, type: 3}
 --- !u!1 &707518878
 GameObject:
   m_ObjectHideFlags: 0
@@ -8291,6 +8323,7 @@ GameObject:
   - component: {fileID: 1413480364}
   - component: {fileID: 1413480366}
   - component: {fileID: 1413480365}
+  - component: {fileID: 1413480367}
   m_Layer: 5
   m_Name: Units Card 1
   m_TagString: Untagged
@@ -8355,6 +8388,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1413480363}
   m_CullTransparentMesh: 1
+--- !u!114 &1413480367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1413480363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7656198418a7c6c47adfc57d506f233f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: 2
+  rifle: {fileID: 21300000, guid: 4bd55f52eb1f8e94f90cef47b12da324, type: 3}
+  bomber: {fileID: 21300000, guid: b5872776af2db3741848183307079d7e, type: 3}
 --- !u!1 &1442124927
 GameObject:
   m_ObjectHideFlags: 0
@@ -10503,6 +10551,7 @@ GameObject:
   - component: {fileID: 1981345843}
   - component: {fileID: 1981345845}
   - component: {fileID: 1981345844}
+  - component: {fileID: 1981345846}
   m_Layer: 5
   m_Name: Units Card 1
   m_TagString: Untagged
@@ -10567,6 +10616,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1981345842}
   m_CullTransparentMesh: 1
+--- !u!114 &1981345846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1981345842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7656198418a7c6c47adfc57d506f233f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  position: 0
+  rifle: {fileID: 21300000, guid: 4bd55f52eb1f8e94f90cef47b12da324, type: 3}
+  bomber: {fileID: 21300000, guid: b5872776af2db3741848183307079d7e, type: 3}
 --- !u!1 &1987278850
 GameObject:
   m_ObjectHideFlags: 0

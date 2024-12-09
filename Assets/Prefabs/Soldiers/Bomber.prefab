@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ead511a6333da240bb871dfcf368b8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  type: 1
   gun: {fileID: 2257214525737005695}
   cooldownTime: 3
   aggroDistance: 18
