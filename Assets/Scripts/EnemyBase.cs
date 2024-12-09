@@ -12,11 +12,13 @@ public class EnemyBase : MonoBehaviour
     [SerializeField]private float stunTime;
     private float curStunTime;
     [SerializeField] private int countAmanith;
-
+    private AudioSource audioSource;
     [SerializeField] private GameObject corpse;
+    [SerializeField] private AudioClip soundHit;
 
     public void Awake() {
         anim = GetComponentInChildren<Animator>();
+        audioSource = GetComponentInChildren<AudioSource>();
         curStunTime = stunTime;
     }
 
@@ -34,7 +36,7 @@ public class EnemyBase : MonoBehaviour
         hp -= damage;
         curStunTime += stunTime;
         anim.SetTrigger("Hit");
-
+        audioSource.PlayOneShot(soundHit);
         if (hp <= 0)
             Death();
     }

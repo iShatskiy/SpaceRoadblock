@@ -26,7 +26,7 @@ public class HpBarScript : MonoBehaviour
                 hp--;
             }
             else {
-                //go.SetActive(false);
+                go.SetActive(false);
                 go.GetComponent<hpSlotScript>().TakeDamage();
             }
         }

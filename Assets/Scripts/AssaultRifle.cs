@@ -6,8 +6,10 @@ public class AssaultRifle : Gun
 {
     [SerializeField] private GameObject bullet;
     [SerializeField] private float missRate;
+
     public override void Shoot() {
         Instantiate(bullet, transform.position, Quaternion.identity);
+        audioShot.Play();
         bullet.GetComponent<Bullet>().damage = damage;
         bullet.GetComponent<Bullet>().missRate = missRate;
     }

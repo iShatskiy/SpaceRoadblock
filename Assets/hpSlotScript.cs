@@ -8,7 +8,7 @@ public class hpSlotScript : MonoBehaviour
     Animator anim;
     bool empty; 
 
-    public void Start()
+    public void Awake()
     {
         anim = GetComponent<Animator>();    
     }

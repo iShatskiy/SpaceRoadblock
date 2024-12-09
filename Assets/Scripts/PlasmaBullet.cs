@@ -27,7 +27,7 @@ public class PlasmaBullet : Bullet
     {
         if (collision.collider.gameObject.tag == "Enemy") {
             collision.gameObject.GetComponent<EnemyBase>().ApplyDamage(damage);
-            Instantiate(particle, transform.position+Vector3.right, Quaternion.identity);
+            Instantiate(particle, transform.position+Vector3.right, Quaternion.identity); 
             Destroy(gameObject);
         }
     }

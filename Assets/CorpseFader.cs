@@ -6,12 +6,18 @@ public class CorpseFader : MonoBehaviour
 {
     public float timeBetweenIterations;
     SpriteRenderer spriteRenderer;
+    AudioSource audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         StartCoroutine(FadeIn());
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource.clip != null)
+        { 
+            audioSource.Play();
+        }
     }
 
     private IEnumerator FadeIn()

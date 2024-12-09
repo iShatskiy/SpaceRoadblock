@@ -156,7 +156,7 @@ MonoBehaviour:
   speed: 3
   lifetime: 3
   missRate: 1
-  damage: 20
+  damage: 9
   particle: {fileID: 5327806668856342310, guid: 6e99ab5a21447164bad91fb69f86c72f, type: 3}
 --- !u!61 &733038965733840654
 BoxCollider2D:

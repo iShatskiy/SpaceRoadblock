@@ -8,4 +8,10 @@ public class Bullet : MonoBehaviour
     [SerializeField]protected float lifetime = 3f;
     public float missRate = 1f;
     public int damage;
+    protected AudioSource mAudioHit;
+
+    public void Start()
+    {
+        mAudioHit = GetComponent<AudioSource>();
+    }
 }
