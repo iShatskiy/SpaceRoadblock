@@ -49,6 +49,9 @@ public class GameManager : MonoBehaviour
     }
     public int countAmanith;
 
+
+    public bool skill_1_release;
+
     void Awake() {
         instance = this;
         ss = FindObjectOfType<SoldierShop>();

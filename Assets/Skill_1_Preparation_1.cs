@@ -4,25 +4,54 @@ using UnityEngine;
 
 public class Skill_1_Preparation_1 : MonoBehaviour
 {
-    public GameObject stage_2;
+    public ExplosionAbility _explosionAbility;
+
+    public GameObject stage_2_go;
     public GameObject rocketFall;
+
+
+
     public void StartPreparations()
     {
+        _explosionAbility.ChangeAmanith();
+        GameManager.instance.skill_1_release = true;
         GetComponent<Animator>().SetTrigger("Target");
-        StartCoroutine(Wait());
+        StartCoroutine(WaitTarget());
     }
 
-    public IEnumerator Wait()
+    public void StartTimerAnim()
     {
-        yield return new WaitForSeconds(1);
-        stage_2.GetComponent<Animator>().SetTrigger("Timer");
-        StartCoroutine(Rocket());
+        stage_2_go.GetComponent<Animator>().SetTrigger("Timer");
+        StartCoroutine(WaitTimer());
     }
 
-    public IEnumerator Rocket()
-    {
-        yield return new WaitForSeconds(2);
+    public void StartRocket()
+    { 
         rocketFall.GetComponent<Animator>().SetTrigger("Shoot");
+        StartCoroutine(WaitRocket());
+    }
+
+    public void StartRelease()
+    { 
+        _explosionAbility.Release();
+    }
+
+    IEnumerator WaitTarget()
+    { 
+        yield return new WaitForSeconds(0.8f);
+        StartTimerAnim();
+    }
+
+    IEnumerator WaitTimer()
+    {
+        yield return new WaitForSeconds(1.4f);
+        StartRocket();
+    }
+
+    IEnumerator WaitRocket()
+    {
+        yield return new WaitForSeconds(.3f);
+        StartRelease();
     }
 }
     

@@ -17,11 +17,11 @@ public class ExplosionAbility : MonoBehaviour
         anim = GetComponent<Animator>();
     }
 
-    private void LateUpdate()
+    private void Update()
     {
         if (b == null)
             { return; }
-        if (GameManager.instance.countAmanith < price)
+        if (GameManager.instance.countAmanith < price || GameManager.instance.skill_1_release)
         {
             b.enabled = false;
         }
@@ -54,7 +54,9 @@ public class ExplosionAbility : MonoBehaviour
     }
     public void Release()
     {
-        ChangeAmanith();
+        //Camera.main.GetComponent<CameraShaker>().shakeDuration = 0.5f;
+        Camera.main.GetComponent<Animator>().SetTrigger("Shake");
         Explosion();
+        GameManager.instance.skill_1_release = false;
     }
 }
