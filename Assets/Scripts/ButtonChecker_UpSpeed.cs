@@ -41,16 +41,18 @@ public class ButtonChecker_UpSpeed : MonoBehaviour
         }
         if (mySoldier.curLevelSpeed <= GameManager.instance.su.upgradesSpeedShooter.Length-1)
                {
-        t.text = "+SPD (-" +
+        t.text =
             GameManager.instance.su.upgradesSpeedShooter[
-                mySoldier.curLevelSpeed].price + ")";
+                mySoldier.curLevelSpeed].price.ToString();
         if (GameManager.instance.countAmanith >= GameManager.instance.su.upgradesSpeedShooter[lvl].price)
             {
                 b.interactable = true;
+                t.color = Color.green;
             }
             else 
             {
                 b.interactable = false;
+                t.color = Color.grey;
             }
                }
     }

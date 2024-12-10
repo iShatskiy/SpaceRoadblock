@@ -40,17 +40,17 @@ public class ButtonChecker_UpAttack : MonoBehaviour
 
         if (mySoldier.curLevelAttack <= GameManager.instance.su.upgradesAttackShooter.Length-1)
                {
-        t.text = "+ATK (-" +
-           GameManager.instance.su.upgradesAttackShooter[
-               mySoldier.curLevelAttack].price + ")";
+        t.text = GameManager.instance.su.upgradesAttackShooter[mySoldier.curLevelAttack].price.ToString();
 
                if (GameManager.instance.countAmanith >= GameManager.instance.su.upgradesAttackShooter[lvl].price)
             {
                 b.interactable = true;
+                t.color = Color.green;
             }
             else 
             {
                 b.interactable = false;
+                t.color = Color.gray;
             }
             
                }
